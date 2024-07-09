@@ -1,8 +1,8 @@
 import ipaddress
 
 # File paths
-input_file = '/home/linux/Desktop/iplook/ipports.txt'
-output_file = '/home/linux/Desktop/iplook/ipwithnoports.txt'
+input_file = '/ipports.txt'
+output_file = '/ipwithnoports.txt'
 
 # Function to remove network prefix and save IP addresses
 def process_ip_addresses(input_file, output_file):
