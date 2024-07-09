@@ -25,10 +25,10 @@ Filtering by Cities: Filters detailed IP information based on a list of specifie
 └── city_filter.py               # Python script for filtering IP information by cities
 
 # Usage
-Prerequisites
+### Prerequisites
 Python 3.x installed
 Required Python packages (ipaddress, ipregistry, csv)
-Setup
+### Setup
 Clone the repository:
 
 git clone https://github.com/your-username/iplookup.git
@@ -37,7 +37,7 @@ cd iplookup
 # Install dependencies:
 
 
-pip install -r requirements.txt
+***pip install -r requirements.txt***
 Obtain an API key from ipregistry and replace 'Your IP Registery API' in ipdetails_fetch_from_ipregistry.py with your actual API key.
 
 # Execution
@@ -48,11 +48,11 @@ python ip_processing.py
 # Fetch IP Details and Generate Files:
 
 
-python ip_lookup.py
+***python ip_lookup.py***
 
 # Filter IP Details by Cities:
 
-python city_filter.py
+***python city_filter.py***
 
 # Notes
 Ensure your input files (ip_addr.txt and cities.txt) are correctly formatted as specified.
