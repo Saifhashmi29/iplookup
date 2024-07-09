@@ -10,7 +10,7 @@ IP Lookup and CSV Generation: Utilizes the ipregistry API to fetch city and stat
 Filtering by Cities: Filters detailed IP information based on a list of specified cities in the United States, saving relevant records to a separate CSV file.
 
 # Project Structure
-
+```
  /iplook/
 │
 ├── ip_addr.txt                  # Initial file with IP addresses including ports
@@ -23,11 +23,14 @@ Filtering by Cities: Filters detailed IP information based on a list of specifie
 ├── remove_ports.py             # Python script for IP address normalization
 ├── ipdetails_fetch_from_ipregistry.py                 # Python script for IP lookup and CSV generation
 └── city_filter.py               # Python script for filtering IP information by cities
-
+```
 # Usage
+
 ### Prerequisites
+
 Python 3.x installed
 Required Python packages (ipaddress, ipregistry, csv)
+
 ### Setup
 Clone the repository:
 
@@ -37,22 +40,23 @@ cd iplookup
 # Install dependencies:
 
 
-***pip install -r requirements.txt***
+***Install csv, and ipregistery module***
+
 Obtain an API key from ipregistry and replace 'Your IP Registery API' in ipdetails_fetch_from_ipregistry.py with your actual API key.
 
 # Execution
 Normalize IP Addresses:
 
-python ip_processing.py
+python remove_ports.py
 
 # Fetch IP Details and Generate Files:
 
 
-***python ip_lookup.py***
+```python ipdetails_fetch_from_ipregistry.py```
 
 # Filter IP Details by Cities:
 
-***python city_filter.py***
+```python city_filter.py```
 
 # Notes
 Ensure your input files (ip_addr.txt and cities.txt) are correctly formatted as specified.
