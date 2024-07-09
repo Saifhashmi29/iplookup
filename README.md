@@ -47,7 +47,7 @@ Obtain an API key from ipregistry and replace 'Your IP Registery API' in ipdetai
 # Execution
 Normalize IP Addresses:
 
-python remove_ports.py
+```python remove_ports.py```
 
 # Fetch IP Details and Generate Files:
 
